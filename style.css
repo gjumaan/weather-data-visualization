@@ -1,0 +1,35 @@
+body {
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.summary-image {
+    width: 40%;
+    float: left;
+}
+
+.visualization-image{
+    width: 120%;
+    margin-bottom: 1rem;
+}
+
+.visualization-image:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.comparison-image{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.comparison-image:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+.plot-image {
+    width: 80%;
+    margin-bottom: 1rem;
+}
